@@ -1,0 +1,27 @@
+{
+    "name": "mint/three",
+    "authors": [
+        {
+            "name": "Marchams",
+            "email": "marchams@gmail.com"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^4.9",
+        "wpackagist-theme/twentyseventeen": "*",
+        "wpackagist-plugin/hello-dolly": "*"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    }
+}
