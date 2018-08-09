@@ -72,7 +72,7 @@ $table_prefix  = 'wp_';
 define('WP_CONTENT_DIR', dirname(ABSPATH) . '/content');
 
 // J'indique à WordPress l'url du dossier "wp-content"
-define('WP_CONTENT_URL', 'http://_URLDEWORDPRESS_/_NOMDUDOSSIER' );
+define('WP_CONTENT_URL', 'http://_URLDEWORDPRESS_/content' );
 
 /**
  * Pour les développeurs : le mode déboguage de WordPress.
